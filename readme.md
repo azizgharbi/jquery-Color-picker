@@ -12,7 +12,7 @@ TODO: display an awesome and simple color picker to use
 
 ## Edit the style 
 
- You add the style you want and use the any other css framework you want
+ Add the style you want and use any other css framework you want
 
 ## Screen shot from a project in which i used this code
 
