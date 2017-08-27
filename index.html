@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color picker</title>
+	<link rel="stylesheet" href="css/color-picker.css" />
+</head>
+<body>
+<input id="color-value" type="text" name="color" hidden="hidden" value="#f39c12">
+              <div class="color-picker">
+                <span class="color-check" uk-icon="icon: check; ratio: 2"></span>
+                <div class="color-circle" data-color='#1abc9c'></div>
+                <div class="color-circle" data-color='#2ecc71'></div>
+                <div class="color-circle" data-color='#2980b9'></div>
+                <div class="color-circle" data-color='#8e44ad'></div>
+                <div class="color-circle" data-color='#e74c3c'></div>
+                <div class="color-circle" data-color='#95a5a6'></div>
+                <div class="color-circle" data-color='#34495e'></div>
+                <div class="color-circle" data-color='#f1c40f'></div>
+            </div>
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.19/js/uikit-icons.js"></script>
+ <script src="js/color-picker.js"></script>
+ <script type="text/javascript">
+ 	$(document).ready(function() {
+  		$( ".color-circle" ).colorPicker();
+	});
+ </script>
+</body>
+</html>
